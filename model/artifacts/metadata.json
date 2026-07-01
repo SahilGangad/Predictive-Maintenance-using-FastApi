@@ -1,8 +1,8 @@
 {
-  "best_model": "RandomForest",
-  "best_roc_auc": 0.9815,
+  "best_model": "XGBoost",
+  "best_roc_auc": 0.982,
   "rf_roc_auc": 0.9815,
-  "xgb_roc_auc": 0.9774,
+  "xgb_roc_auc": 0.982,
   "feature_cols": [
     "Type_encoded",
     "Air temperature [K]",
@@ -24,7 +24,7 @@
     "M"
   ],
   "smote_used": true,
-  "sklearn_version": "1.5.2",
-  "xgboost_version": "2.1.1",
+  "sklearn_version": "1.7.2",
+  "xgboost_version": "3.3.0",
   "saved_from": "D:\\Predictive_Maintenance\\model\\artifacts"
 }
